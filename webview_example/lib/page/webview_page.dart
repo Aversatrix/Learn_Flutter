@@ -140,7 +140,7 @@ class _WebViewPageState extends State<WebViewPage> {
         floatingActionButton: FloatingActionButton(
           child: const Icon(Icons.next_plan, size: 32),
           onPressed: () async {
-            const email = 'Virer2007@mail.ru';
+            const email = '';
             const pass = '';
 
             _webController.evaluateJavascript(

@@ -141,7 +141,7 @@ class _WebViewPageState extends State<WebViewPage> {
           child: const Icon(Icons.next_plan, size: 32),
           onPressed: () async {
             const email = 'Virer2007@mail.ru';
-            const pass = 'Virervirer123!@#';
+            const pass = '';
 
             _webController.evaluateJavascript(
               "document.getElementById('m_login_email').value='$email'",
